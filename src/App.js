@@ -1,12 +1,17 @@
-import React, { Component, Fragment } from "react";
-import "./App.css";
-import MyComponent from "./MyComponent";
-import Counter from "./Counter";
-import Say from "./Say";
-import EventPractice from "./EventPractice";
+import React, { Component } from 'react';
+import ValidationSample from './ValidationSample';
+import RefSample from './RefSample';
+import ScrollBox from './ScrollBox'
+import './App.css';
 
-const App = () => {
-    return <EventPractice/>;
-};
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <ScrollBox/>
+      </div>
+    );
+  }
+}
 
 export default App;
